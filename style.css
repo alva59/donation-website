@@ -150,11 +150,7 @@ section.donate-plan-section {
     font-family: 'Inter';
 }
 
-.plan-box p {
-    font-size: 18px;
-    font-family: 'Poppins';
-    color: #707070;
-}
+
 
 .plan-box.one {
     background: #EDF5F6;
@@ -169,4 +165,38 @@ section.donate-plan-section {
 .plan-box.three {
     background: #FFF4D6;
     border-radius: 5px;
+}
+
+/* Contribute Section */
+.contribute-section{
+    text-align: left;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 40px 100px;
+}
+#contribute-title{
+    text-align: left;
+}
+.contribute-section p {
+    font-size: 18px;
+    font-family: 'Poppins';
+    color: #707070;
+}
+.contribute-left{
+    width: 50%;
+    height: auto;
+    margin: 0% 5%; 
+}
+.contribute-right{
+    width: 50%;
+    height: auto;
+    padding: 0% 5%; 
+}
+
+.contribute-right img{
+    max-width: 100%;
+    height: auto;
+    object-fit:cover;
 }
