@@ -105,7 +105,7 @@ header{
     border-left: none;
     border-right: none;
     font-size: 18px;
-    width: 45%;
+    width: 65%;
     padding: 0% 0%;
     color: #b3b3b3;
 }
@@ -181,6 +181,7 @@ section.donate-plan-section {
     font-size: 18px;
     font-family: 'Poppins';
     color: #707070;
+    text-align: justify;
 }
 .contribute-left{
     width: 40%;
@@ -221,4 +222,13 @@ section.donate-plan-section {
     font-family: 'poopins', sans-serif;
     font-size: 18px;
     line-height: 28px;
+}
+
+/* Footer Section */
+footer h3{
+    font-family: 'Inter', sans-serif;
+    font-size: 54px;
+}
+footer p{
+    font-family: 'Poppins', sans-serif;
 }
