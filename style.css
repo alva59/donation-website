@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Josefin+Sans:ital@1&family=Poppins&display=swap');
 body{
     margin: 0;
 }
@@ -65,7 +65,7 @@ header{
     color: #121212;
     text-align: center;
     font-family: 'Inter', sans-serif;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 .section-content p{
@@ -219,15 +219,70 @@ section.donate-plan-section {
 }
 .mission-right p{
     text-align: justify;
-    font-family: 'poopins', sans-serif;
+    font-family: 'poppins', sans-serif;
     font-size: 18px;
     line-height: 28px;
 }
 
+/* Update Section */
+section.updates-section {text-align: center;}
+
+.updates-content p {
+    font-size: 18px;
+    font-family: 'Poppins';
+    color: #707070;
+    margin-bottom: 60px;
+}
+
+form {
+    background: #FFF4D6;
+    padding: 80px 0;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.updates-content {
+}
+
+input[type="email"] {
+    font-size: 18px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-style: none;
+    font-family: 'Poppins';
+    padding: 10px;
+}
+input:focus{
+    outline: none;
+}
+
+form a {
+    text-decoration: none;
+    font-size: 18px;
+    background: #ff5959;
+    text-align: center;
+    padding: 10px 30px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #fff;
+    font-family: 'Poppins';
+}
+
 /* Footer Section */
+footer{
+    text-align: center;
+    background-color: #0B0D17;
+    padding: 20px 0;
+    color: #fafafa;
+}
+footer img{
+    width: 80px;
+    height: 80px;
+}
 footer h3{
-    font-family: 'Inter', sans-serif;
-    font-size: 54px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 28px;
+    color: #FF5959;
 }
 footer p{
     font-family: 'Poppins', sans-serif;
