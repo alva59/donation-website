@@ -250,7 +250,7 @@ input[type="email"] {
     border-bottom-left-radius: 5px;
     border-style: none;
     font-family: 'Poppins';
-    padding: 10px;
+    padding: 9px;
 }
 input:focus{
     outline: none;
