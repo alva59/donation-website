@@ -172,8 +172,6 @@ section.donate-plan-section {
     text-align: left;
     display: flex;
     align-items: center;
-    width: 100%;
-    height: 100%;
     margin: 40px 100px;
 }
 #contribute-title{
@@ -185,12 +183,12 @@ section.donate-plan-section {
     color: #707070;
 }
 .contribute-left{
-    width: 50%;
+    width: 40%;
     height: auto;
     margin: 0% 5%; 
 }
 .contribute-right{
-    width: 50%;
+    width: 40%;
     height: auto;
     padding: 0% 5%; 
 }
@@ -199,4 +197,28 @@ section.donate-plan-section {
     max-width: 100%;
     height: auto;
     object-fit:cover;
+}
+
+/* Bonus Section */
+.bonus-section{
+    display: flex;
+    margin: 0 40px;
+
+}
+.mission-left{
+    width: 40%;
+    padding: 0 5%;
+}
+.mission-right{
+    width: 40%;
+    padding: 0 5%;
+}
+.mission-left img{
+    max-width: 100%;
+}
+.mission-right p{
+    text-align: justify;
+    font-family: 'poopins', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
 }
